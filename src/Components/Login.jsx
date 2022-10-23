@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { AuthUser } from '../Context/UserContext';
 
 const Login = () => {
@@ -27,7 +28,7 @@ const Login = () => {
                             <label className="label">
                                 <p className="link link-hover"><small>Forgot password?</small></p>
                             </label>
-                            <small>Dont have Accout go <span className='link link-hover text-teal-400'>Registation</span> Page</small>
+                            <small>Dont have Accout go <Link to='/register' className='link link-hover text-teal-400'> Registation </Link> Page</small>
                         </div>
                         <div className="form-control mt-6">
                             <button className="btn btn-primary">Login</button>
