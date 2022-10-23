@@ -8,7 +8,6 @@ const NavBar = () => {
                 <div className=" flex-1"></div>
                 <div className="flex-1">
                     <ul className="menu menu-horizontal p-0">
-                        <li><NavLink to='/home'>Home</NavLink></li>
                         <li><NavLink to='/login'>Login</NavLink></li>
                         <li><NavLink to='/register'>register</NavLink></li>
                     </ul>
