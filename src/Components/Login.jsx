@@ -1,9 +1,12 @@
-import React from 'react';
+import { useContext } from 'react';
+import { AuthUser } from '../Context/UserContext';
 
 const Login = () => {
+    const { } = useContext(AuthUser)
+
     return (
         <div>
-            Login
+            login
         </div>
     );
 };
